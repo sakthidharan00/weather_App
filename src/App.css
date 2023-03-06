@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Julee&family=Kanit&family=Lato&family=Merienda+One&family=Noto+Sans:ital@1&family=Overpass&family=Shadows+Into+Light&family=Tilt+Neon&display=swap');
+
+.container-fluid {
+  background-image: url("https://www.wallpaperflare.com/static/377/144/986/weather-canon-ef-mm-f-2-wallpaper.jpg");
+
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  place-items: center;
+
+}
+
+.container-fluid>.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.container-fluid>.container>.content {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 50px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 1px 1px 50px 1px rgb(175, 175, 175, 0.8);
+}
+
+.container-fluid>.container>.content>.content_Header {
+  text-align: center;
+}
+
+.container-fluid>.container>.content>.input {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  width: 100%;
+
+}
+
+.container-fluid>.container>.content>.input>input {
+  width: 100%;
+  outline: none;
+  padding: 5px !important;
+}
+
+
+/* response */
+.content_response {
+  background-color: white;
+  outline: none;
+  border-radius: 15px;
+  box-shadow: 1px 1px 50px 1px rgb(175, 175, 175, 0.8);
+}
+
+.content_response>.info {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+
+}
+
+.content_response>.info>h2 {
+  font-family: 'EB Garamond', serif;
+  font-size: 50px;
+}
+
+.content_response>.info>p {
+  font-weight: 400;
+}
+
+.content_response>.info>img {
+  height: 100px;
+}
+
+.content_response>.info>button {
+  width: 100%;
+}
